@@ -40,8 +40,6 @@ Please look at the example available in 'wan_projections_vasp.py' at the bottom 
  
 The method I implemented to install pymatgen is through running the following in the command line:<br />
 <code> conda install -c conda-forge pymatgen </code>
-
-please use this link for the instructions on how to install pymatgen
 for more information on how to install pymatgen with the source code, please refer to this [link](https://github.com/materialsproject/pymatgen).</dd>
 </dt>
 
