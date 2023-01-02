@@ -13,8 +13,8 @@ creating an automated method to rn WANNIER90 to obtain Maximally-localized Wanni
 1. the code checks whether the POTCAR and POSCAR files correspond to each other to make sure your computations are consistent
 
 2. The code provides the trial projected orbitals onto each specie and site along with the associated number of Wannier functions. 
-* if you select (projection_type="orbitals"), the code will give projected orbitals based on the species in s, p, d, and f format 
-* if you select (projection_type="quantum_numbers"), the code will give projected orbitals based on the species in l=#, ml=-l..l quantum numbers format 
+ * if you select (projection_type="orbitals"), the code will give projected orbitals based on the species in s, p, d, and f format 
+ * if you select (projection_type="quantum_numbers"), the code will give projected orbitals based on the species in l=#, ml=-l..l quantum numbers format 
 
 3. The code can output the number of Wannier functions for spin-orbit coupling (SOC) calculations or non-SOC calculations
 * you have to set the argument "SOC" as True or False based on your calculations. The argument "SOC" is in "write_wan_projections" function
