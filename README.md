@@ -52,7 +52,7 @@ for more info on how to install pymatgen with the source code, please refer to t
 for more information on how to install jarvis-tools with the source code, please use this [link](https://github.com/usnistgov/jarvis)</dd>
 </dl>
 
-## Gratitude
+## Usage and Development
 * to copy this repository to your own computer please run the following in the command line: <br />
 <code>git clone https://github.com/Mofahdi/vasp_wannier90 </code>
 
