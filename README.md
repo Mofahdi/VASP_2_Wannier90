@@ -13,8 +13,8 @@ creating an automated method to rn WANNIER90 to obtain Maximally-localized Wanni
 1. the code checks whether the POTCAR and POSCAR files correspond to each other to make sure your computations are consistent
 
 2. The code provides the trial projected orbitals onto each specie and site along with the associated number of Wannier functions. 
- * if you select (projection_type="orbitals"), the code will give projected orbitals based on the species in s, p, d, and f format 
- * if you select (projection_type="quantum_numbers"), the code will give projected orbitals based on the species in l=#, ml=-l..l quantum numbers format 
+			* if you select (projection_type="orbitals"), the code will give projected orbitals based on the species in s, p, d, and f format 
+   * if you select (projection_type="quantum_numbers"), the code will give projected orbitals based on the species in l=#, ml=-l..l quantum numbers format 
 
 3. The code can output the number of Wannier functions for spin-orbit coupling (SOC) calculations or non-SOC calculations
 * you have to set the argument "SOC" as True or False based on your calculations. The argument "SOC" is in "write_wan_projections" function
@@ -27,10 +27,10 @@ Please look at the example available in 'wan_projections_vasp.py' at the bottom 
 
 # Required Packages
 * The script assumes that you had previously installed the following python packages 
-<code> pymatgen==2022.0.17</code>\n
-<code> jarvis-tools==2022.9.16</code>\n
-<code> monty==2022.9.9</code>\n
-<code> ase==3.22.1</code>\n
+<code> pymatgen==2022.0.17</code>
+<code> jarvis-tools==2022.9.16</code>
+<code> monty==2022.9.9</code>
+<code> ase==3.22.1</code>
 
 * I believe installing the exact version is not necessary, so you can install other versions that are different from the above and still be able to run the script!
 
