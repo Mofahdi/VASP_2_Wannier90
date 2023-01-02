@@ -1,15 +1,15 @@
-## vasp_wannier90
-# Functionality
+# vasp_wannier90
+## Functionality
 This script is designed to give good initial guesses for the trial localized orbitals projected onto the Bloch functions to obtain the Wannier functions in real space
 as proposed by N. Marzari and D. Vanderbilt work in the Ref. below
 N. Marzari and D. Vanderbilt, Phys. Rev. B. 56, 12847 (1997)
 ***
 
-# Motivation
+## Motivation
 creating an automated method to rn WANNIER90 to obtain Maximally-localized Wannier functions (MLWF)s with less human intervention is challenging. Building a tool that can generate WANNIER90 input files has become more imperative due to the emergence of high-throughput (HT) workflows. Recently, the SCDM methodolgy had been proposed to be used to automatically generate MLWFs for HT frameworks in article entitled "Automated high-throughput Wannierisation" that can be accessed in this [link](https://www.nature.com/articles/s41524-020-0312-y). However, the SCDM methodolgy can only be implemented in Quantum Espresso (QE), but still not available in other computational materials science tools such as VASP and ABINIT. This script can help generate WANNIER90 input files from VASP runs with a reasonable guess of the trial projections that can help the user perform HT calculations
 ***
 
-# Features and Capabilities:
+## Features and Capabilities:
 1. the code checks whether the POTCAR and POSCAR files correspond to each other to make sure your computations are consistent
 
 2. The code provides the trial projected orbitals onto each specie and site along with the associated number of Wannier functions. 
@@ -25,9 +25,9 @@ Please look at the example available in 'wan_projections_vasp.py' at the bottom 
 5. Pay attention that I only included the word 'true' in the script, but you can actually type '.true.' or 'True' in WANNIER90 input file. Please read WANNIER90 documentation for more info
 ***
 
-# Required Packages
+## Required Packages
 * The script assumes that you had previously installed the following python packages 
-<code> pymatgen==2022.0.17</code>
+<code> pymatgen==2022.0.17</code><br />
 <code> jarvis-tools==2022.9.16</code>
 <code> monty==2022.9.9</code>
 <code> ase==3.22.1</code>
@@ -53,8 +53,8 @@ for more information on how to install pymatgen with the source code, please ref
 
 for more information on how to install jarvis-tools with the source code, please use this [link](https://github.com/usnistgov/jarvis)</dd>
 </dl>
----
 
+## Gratitude
 * to copy this repository to your own computer please run the following in the command line:
 </code>git clone https://github.com/Mofahdi/vasp_wannier90 </code>
 
