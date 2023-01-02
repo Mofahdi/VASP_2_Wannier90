@@ -27,10 +27,10 @@ Please look at the example available in 'wan_projections_vasp.py' at the bottom 
 
 # Required Packages
 * The script assumes that you had previously installed the following python packages 
-<code> pymatgen==2022.0.17</code>
-<code> jarvis-tools==2022.9.16</code>
-<code> monty==2022.9.9</code>
-<code> ase==3.22.1</code>
+<code> pymatgen==2022.0.17</code>\n
+<code> jarvis-tools==2022.9.16</code>\n
+<code> monty==2022.9.9</code>\n
+<code> ase==3.22.1</code>\n
 
 * I believe installing the exact version is not necessary, so you can install other versions that are different from the above and still be able to run the script!
 
