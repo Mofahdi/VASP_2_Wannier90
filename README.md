@@ -17,7 +17,7 @@ creating an automated method to rn WANNIER90 to obtain Maximally-localized Wanni
    * if you select (projection_type="quantum_numbers"), the code will give projected orbitals based on the species in l=#, ml=-l..l quantum numbers format 
 
 3. The code can output the number of Wannier functions for spin-orbit coupling (SOC) calculations or non-SOC calculations
-* you have to set the argument "SOC" as True or False based on your calculations. The argument "SOC" is in "write_wan_projections" function
+   * you have to set the argument "SOC" as True or False based on your calculations. The argument "SOC" is in "write_wan_projections" function
 
 4. The code can also output the high-symmetry path for your structure if you include "bands_plot" and set it equal to "true" in "other_commands" argument in "write_wan_projections" function.
 Please look at the example available in 'wan_projections_vasp.py' at the bottom of the script.
