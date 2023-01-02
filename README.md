@@ -26,11 +26,11 @@ Please look at the example available in 'wan_projections_vasp.py' at the bottom 
 ***
 
 ## Required Packages
-* The script assumes that you had previously installed the following python packages 
+* The script assumes that you had previously installed the following python packages <br />
 <code> pymatgen==2022.0.17</code><br />
-<code> jarvis-tools==2022.9.16</code>
-<code> monty==2022.9.9</code>
-<code> ase==3.22.1</code>
+<code> jarvis-tools==2022.9.16</code><br />
+<code> monty==2022.9.9</code><br />
+<code> ase==3.22.1</code><br />
 
 * I believe installing the exact version is not necessary, so you can install other versions that are different from the above and still be able to run the script!
 
@@ -38,7 +38,7 @@ Please look at the example available in 'wan_projections_vasp.py' at the bottom 
 <dt><code>pymatgen</code></dt>
 <dd>Before you install <code> pymatgen</code>, you have to install critical dependencies. Please click on this [link](https://github.com/materialsproject/pymatgen) for more info on how to install <code>pymatgen</code>.
  
-The method I implemented to install pymatgen is through running the following in the command line:
+The method I implemented to install pymatgen is through running the following in the command line:<br />
 <code> conda install -c conda-forge pymatgen </code>
 
 please use this link for the instructions on how to install pymatgen
@@ -48,15 +48,15 @@ for more information on how to install pymatgen with the source code, please ref
 
 <dl>
 <dt><code>jarvis-tools</code></dt>
-<dd>The method I implemented to install jarvis-tools is through running the following in the command line:
+<dd>The method I implemented to install jarvis-tools is through running the following in the command line:<br />
 <code> pip install -U jarvis-tools </code>
 
 for more information on how to install jarvis-tools with the source code, please use this [link](https://github.com/usnistgov/jarvis)</dd>
 </dl>
 
 ## Gratitude
-* to copy this repository to your own computer please run the following in the command line:
-</code>git clone https://github.com/Mofahdi/vasp_wannier90 </code>
+* to copy this repository to your own computer please run the following in the command line: <br />
+<code>git clone https://github.com/Mofahdi/vasp_wannier90 </code>
 
 * if you have any questions or would like to see more functionalities in this script, please do not hesistate to email me at malfahdi@email.sc.edu
-* also please consider reading my published work in Google Scholar using this [link](https://scholar.google.com/citations?user=5tkWy4AAAAAJ&hl=en&oi=ao)
+* also please consider reading my published work in Google Scholar using this [link](https://scholar.google.com/citations?user=5tkWy4AAAAAJ&hl=en&oi=ao) thank you :)
