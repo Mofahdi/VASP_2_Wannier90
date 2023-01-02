@@ -1,5 +1,7 @@
-# vasp_wannier90
+## vasp_wannier90
+# functionality
+This script is designed to give good initial guesses for the trial localized orbitals projected onto the Bloch functions to obtain the Wannier functions in real space
+as proposed by N. Marzari and D. Vanderbilt work in the Ref. below
+N. Marzari and D. Vanderbilt, Phys. Rev. B. 56, 12847 (1997)
+***
 
-<h1 align="left">This python script is meant to create input files to run wannier90 from VASP inputs files</h1>
-<p align="left">This script is designed to give good initial guesses for the trial localized orbitals</p>
-<code> pymatgen==2022.0.17</code>
