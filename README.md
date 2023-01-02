@@ -39,8 +39,8 @@ Please look at the example available in 'wan_projections_vasp.py' at the bottom 
 <dd>Before you install <code> pymatgen</code>, you have to install critical dependencies. Please click on this [link](https://github.com/materialsproject/pymatgen) for more info on how to install <code>pymatgen</code>.
  
 The method I implemented to install pymatgen is through running the following in the command line:<br />
-<code> conda install -c conda-forge pymatgen </code>
-for more information on how to install pymatgen with the source code, please refer to this [link](https://github.com/materialsproject/pymatgen).</dd>
+<code> conda install -c conda-forge pymatgen </code><br />
+for more info on how to install pymatgen with the source code, please refer to this [link](https://github.com/materialsproject/pymatgen).</dd>
 </dt>
 
 
