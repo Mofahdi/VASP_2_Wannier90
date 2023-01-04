@@ -90,11 +90,15 @@ band_points=30, projection_type='orbitals', file_name='wannier90.win', SOC=True)
 				specie_l_proj=specie_l_proj+"l=3,mr=1,2,3,4,5,6,7;"
 		specie_proj=specie_proj[:-1]
 		specie_l_proj=specie_l_proj[:-1]
+		projection_type=projection_type.lower()
 		if projection_type=='orbitals':
 			f.write('%s\n'%(specie_proj))
-		elif projection_type!='orbitals':
+		elif projection_type=='qunatum_numbers':
 			f.write('%s\n'%(specie_l_proj))
+		else:
+			raise Exception("sorry, the code currently supports 'orbitals' and 'qunatum_numbers' keywords. Case is ignored!")
 	f.write('End Projections\n')
+	
 	if SOC==True:
 		num_wan_used=num_wan
 	elif SOC==False:
@@ -114,7 +118,8 @@ band_points=30, projection_type='orbitals', file_name='wannier90.win', SOC=True)
 
 if __name__=="__main__":
 	basis_dict, num_atoms_dict=get_basis(structure=Structure.from_file('POSCAR'), potcar_input='POTCAR', \
-			basis_file_dir=os.path.join(os.getcwd(), "lobster_basis/BASIS_PBE_54_standard.yaml"))
-	wan_commands={' num_iter': 300, 'write_xyz': 'true',  'write_hr': 'true', 'bands_plot': 'true'}
-	write_wan_projections(basis_dict, num_atoms_dict, wan_commands, 'POSCAR', file_name='wannier90_test.win')
+			basis_file_dir=os.path.join(os.getcwd(), "BASIS_PBE_54_standard.yaml"))
+	wan_commands={'num_iter': 300, 'write_xyz': 'true',  'write_hr': 'true', 'bands_plot': 'true'}
+	write_wan_projections(basis_dict, num_atoms_dict, wan_commands, 'POSCAR', projection_type='orbitals', 
+	file_name='wannier90_test.win')
 	
