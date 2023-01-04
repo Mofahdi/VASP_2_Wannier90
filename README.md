@@ -23,6 +23,8 @@ creating an automated method to rn WANNIER90 to obtain Maximally-localized Wanni
 Please look at the example available in 'wan_projections_vasp.py' at the bottom of the script.
 
 5. Pay attention that I only included the word 'true' in the script, but you can actually type '.true.' or 'True' in WANNIER90 input file. Please read WANNIER90 documentation for more info
+
+6. if you run the code as it is, you will create a file named "wannier90_test.win" which is uploaded here. However, you can always change the name of the file in the argument "file_name" inside the function "write_wan_projections". If you don't specify a name for your input file, the file outputted is named "wannier90.win" by default.
 ***
 
 ## Required Packages
