@@ -56,7 +56,7 @@ for more information on how to install jarvis-tools with the source code, please
 
 ## Usage and Development
 * to copy this repository to your own computer please run the following in the command line: <br />
-<code>git clone https://github.com/Mofahdi/VASP2WANNIER90 </code>
+<code>git clone https://github.com/Mofahdi/VASP_2_WANNIER90 </code>
 
 * if you have any questions or would like to see more functionalities in this script, please do not hesistate to let me know!
 * also please consider reading my published work in Google Scholar using this [link](https://scholar.google.com/citations?user=5tkWy4AAAAAJ&hl=en&oi=ao) thank you :)
