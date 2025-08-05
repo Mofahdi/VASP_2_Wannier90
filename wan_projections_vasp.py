@@ -101,6 +101,7 @@ band_points=30, projection_type='orbitals', file_name='wannier90.win', SOC=True)
 	
 	if SOC==True:
 		num_wan_used=num_wan
+		f.write('spinors = .true.\n')
 	elif SOC==False:
 		num_wan_used=num_wan/2
 	f.write('num_wann ='+str(int(num_wan_used))+'\n')
@@ -123,3 +124,4 @@ if __name__=="__main__":
 	write_wan_projections(basis_dict, num_atoms_dict, wan_commands, 'POSCAR', projection_type='orbitals', 
 	file_name='wannier90_test.win')
 	
+
